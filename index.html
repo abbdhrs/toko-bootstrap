@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MHA Acoustic</title>
+  
+  <!-- link bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="home">
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">MHA Acoustic</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#body">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#product">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#feedback">Feedback</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+  
+  <!-- carousel -->
+  <div id="carouselExampleCaptions" class="carousel slide border-4 border-bottom
+  border-secondary mt-5"
+  data-bs-ride="carousel" >
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/backgroundgitar.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Welcome to MHA Acoustic Store</h5>
+          <p>Toko alat musik paling lengkap dan terjamin.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/pexels-42north-1407322.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Gratis Ongkir</h5>
+          <p>Semua pembelian di toko kami bebas biaya ongkir</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/pexels-jan-kroon-357445-1336539.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Ori terjamin</h5>
+          <p>Barang barang yang kami jual pastinya original 100% dan terpercaya</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- carousel end -->
+  
+  <!-- about -->
+  <section id="about" class="text-center">
+    <div class="container">
+      <div class="row pb-4 pt-4">
+        <div class="col">
+          <h3>Selamat datang di Toko Kami</h3>
+        </div>
+      </div>
+      <div class="row ps-4 pe-4">
+        <div class="col">
+          <p>Di toko kami menyediakan banyak pilihan alat musik
+    khususnya acoustic yang bisa kamu pilih. Mulai dengan gitar, cajon, serta
+    aksesoris musik lainnya. So, selamat berbelanja</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about end -->
+  
+  <!-- product -->
+  <section id="product" class="bg-body-tertiary mt-0 pt-0">
+    <div class="container">
+      <div class="row pt-4 pb-4">
+        <div class="col">
+          <h3>Produk terbaru</h3>
+        </div>
+      </div>
+      <div class="row">
+        <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 rounded-pill border-danger" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success rounded-pill" type="submit"><i class="bi
+              bi-search"></i></button>
+            </form>
+          </div>
+        </nav>
+      </div>
+      <div class="row justify-content-around">
+        <div class="col-md-4 mb-3">
+          <div class="card border-0 rounded-4 shadow">
+            <img src="img/produk/gitar 1.jpg" class="card-img-top p-2"
+            alt="produk1">
+            <div class="card-body">
+              <h5 class="card-title">Gitar Yamaha C135</h5>
+              <p class="card-text text-success">Rp 600.000</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary"
+              data-bs-toggle="modal" data-bs-target="#exampleModal">Detail
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Yamaha
+                      C135</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      C315 mungkin merupakan salah satu model klasik ukuran
+                      penuh paling murah dari Yamaha, namun kualitas dan nadanya
+                      luar biasa. Tawaran yang nyata untuk pemula.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Tambahkan ke
+                      keranjang</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card border-0 rounded-4 shadow">
+            <img src="img/produk/gitar 2.jpg" class="card-img-top p-2" alt="produk2">
+            <div class="card-body">
+              <h5 class="card-title">Gitar Yamaha APX</h5>
+              <p class="card-text text-success">Rp 900.000</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary"
+              data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                Detail 
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Yamaha
+                      APX</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Gitar keren yang dimiliki yamaha dengan harga yang
+                      terjangkau itulah yamaha APX. Dengan desain yang simpel
+                      tapi modern dan pastinya berkualitas tinggi.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Tambahkan ke
+                      keranjang</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card rounded-4 border-0 shadow">
+            <img src="img/produk/665b2ae6-198f-48ec-ac7e-1ad362c65215.jpg.webp" class="card-img-top p-2" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Gitar Cowboy</h5>
+              <p class="card-text text-success">Rp 1.800.000</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary"
+              data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                Detail
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Gitar
+                      Cowboy</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Gitar dengan kualitas yang sangat tinggi dan pastinya
+                      keren parah, sudah tentu yaitu gitar cowboy ini. Dengan
+                      harga yang agak mahal tapi memberikan kualitas yang
+                      terbaik, mengapa tidak.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Tambahkan
+                      ke keranjang</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card rounded-4 border-0 shadow">
+            <img src="img/produk/kentrung.jpg" class="card-img-top p-2" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Kentrung kece</h5>
+              <p class="card-text text-success">Rp 300.000</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary"
+              data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                Detail
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5"
+                      id="exampleModalLabel">Kentrung kece</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Selain gitar, kami juga menyediakan alat musik lainnya
+                      misalnya seperti kentrung ini. Tentu kami jual dengan
+                      harga uang terjangkau tapi dengan kualitas terbaik,
+                      kentrungini sangat recommended 
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Tambahkan
+                      ke keranjang</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card rounded-4 border-0 shadow">
+            <img src="img/produk/pick gitar.jpg" class="card-img-top p-2" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pick gitar isi 4</h5>
+              <p class="card-text text-success">Rp 20.000</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary"
+              data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                Detail
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5"
+                      id="exampleModalLabel">Pick gitar isi 4</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">Pick gitar paling murah dengan harga segitu sudah dapat 4
+                      pcs dan pastinya berkualitas.
+                      
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Tambahkan
+                      ke keranjang</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card rounded-4 border-0 shadow">
+            <img src="img/produk/senar gitar.jpg" class="card-img-top p-2" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Fender Senar Gitar Bass Electrik</h5>
+              <p class="card-text text-success">Rp 90.000</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary"
+              data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                Detail
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5"
+                      id="exampleModalLabel">Fender Senar Gitar Bass Electrik</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Senar gitar khusus bass dengan kualitas yang tinggi dari
+                      merk Fender
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Tambahkan
+                      ke keranjang</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+    </div>
+  </section>
+  <!-- product end -->
+  
+  <!-- feedback -->
+  <section id="feedback" class="pb-4">
+    <br><br>
+    <div class="container text-dark">
+      <div class="row pb-3 text-start">
+        <div class="col">
+          <h3 class="fs-1 fw-semibold fst-italic"  style="color: rgb(139, 14, 14);" data-aos="fade-down"
+          data-aos-duration="1300">Your Feedback</h3>
+        </div>
+      </div>
+      <div class="row justify-content-center" data-aos="fade-up"
+      data-aos-duration="1300">
+        <div class="col-md-6 pe-4 ps-4">
+          <form action="https://formsubmit.co/abidharits8@gmail.com"
+          method="POST">
+            <div class="mb-3">
+              <label for="name" class="form-label">Username</label>
+              <input name="nama" type="name" class="form-control" id="name"
+              aria-describedby="name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input name="email" type="email" class="form-control" id="email"
+              aria-describedby="email">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea name="message" class="form-control input" id="message" rows="3"
+              style="box-shadow: 0px 0px 10px #ccc;" placeholder="isi pendapatmu"></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-outline-dark">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <br>
+  </section>
+  
+  <!-- footer -->
+  <footer class="bg-dark p-4 text-light text-start">
+    <div class="row ps-2 pe-2">
+      <div class="col-md-6 mb-3">
+        <h2>Logo</h2>
+      </div>
+      <div class="col-md-6 mb-3">
+        <h3>Jelajahi</h3>
+        <a href="#about" class="fst-none text-light text-decoration-none fs-6">about</a><br>
+        <a href="#product" class="fst-none text-light text-decoration-none fs-6">products</a><br>
+        <a href="#feedback" class="fst-none text-light text-decoration-none fs-6">feedback</a>
+        
+      </div>
+      <div class="col-md-6 mb-3">
+        <h3>Creator</h3>
+        <a href="#" class="m-0 fst-none text-light text-decoration-none fs-6">Mohammad Harits Abid</a>
+        <p class="m-0">Dibantu oleh teman saya</p>
+      </div>
+      <div class="col-md-6 mb-3">
+        <h3>Follow us</h3>
+        <a class="fst-none text-light text-decoration-none" href="https://instagram.com/harits_mha?igshid=NGExMmI2YTkyZg=="
+          target="_blank"><i class="bi bi-instagram fs-5 p-2"></i></a>
+        <a class="fst-none text-light text-decoration-none" href="https://github.com/abbdhrs" target="_blank"><i class="bi
+          bi-github fs-5 p-2"></i></a>
+      </div>
+    </div>
+    <div class="row justify-content-center text-center p-2">
+      Copyright &copy;2024 MHA MUSIC STORE
+    </div>
+  </footer>
+  <!-- footer end -->
+  
+  <!-- java -->
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"></script>
+</body>
+</html>
